@@ -63,8 +63,8 @@
 \cventry{Oct 2018--Oct 2019}{Machine Learning Engineer}{Nines}{Palo Alto, CA}{}{
     Startup applying machine learning to improve radiology.\newline{}https://www.ninesradiology.com/
     \begin{itemize}
-        \item Built FDA approvable image classification models for detecting emergencies in CT scans of the head.
-        \item Conducted experiments to test the generalization of image classification models to different CT scanners.
+        \item Built image classification models for detecting emergent conditions on CT head scans (currently undergoing FDA review).
+        \item Developed method to leverage NLP on doctor reports to study generalization properties of image-based models, reducing amount of labeled data required for validation.
         \item Conducted experiments to test the effect of different labeling strategies on inter-rater reliability and model performance.
         \item Developed framework to track experiments and infrastructure to perform hyperparameter tuning.
         \item Developed evaluation framework used to compute performance metrics, tune thresholds, and iteratively debug/improve classification and detection models.
@@ -88,11 +88,11 @@
 \cventry{Aug 2014--Dec 2015}{Research Assistant}{University of Michigan}{}{}{
     Deep Learning research advised by Professor Honglak Lee.\newline{}https://web.eecs.umich.edu/~honglak/
     \begin{itemize}
-        \item Worked through Professor Lee's advanced tutorials on deep learning algorithms.
-        \item Worked on an interdisciplinary project applying convolutional autoencoders to develop a non-iterative approach to non-linear electromagnetic inverse scattering.
+        \item Applied convolutional autoencoders to non-linear electromagnetic inverse scattering, improving reconstructions and reducing runtimes of through-the-wall imaging.
         \item Model improvements: experimented with adaptive learning rates and multi-task learning methods in order to scale up algorithm to harder datasets.
         \item System improvements: integrated matconvnet for GPU acceleration in matlab then ported code to Theano for further speedups.
         \item This work was presented as an abstract at IEEE AP-S/URSI 2016 in Puerto Rico.
+        \item Worked through Professor Lee's advanced tutorials on deep learning algorithms.
     \end{itemize}
 }
 \cventry{Sept 2015--Dec 2015}{Research Assistant}{University of Michigan}{}{}{
@@ -172,12 +172,12 @@
 %\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
 %\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
 
-%\section{References}
-%\begin{cvcolumns}
-  %\cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  %\cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  %\cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-%\end{cvcolumns}
+\section{References}
+\begin{cvcolumns}
+  \cvcolumn{Nines}{\begin{itemize}\item Matthew Lungren\item David Stavens\end{itemize}}
+  \cvcolumn{Clarifai}{\begin{itemize}\item Matthew Zeiler\item David Eigen\end{itemize}}
+  \cvcolumn{University of Michigan}{\begin{itemize}\item Honglak Lee\end{itemize}}
+\end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
