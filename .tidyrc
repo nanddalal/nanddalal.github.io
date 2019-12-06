@@ -1,0 +1,5 @@
+break-before-br: yes
+indent-spaces: 4
+indent: yes
+uppercase-tags: yes
+wrap: 0
