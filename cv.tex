@@ -61,14 +61,15 @@
 %\subsection{Nines}
 \cventry{Oct 2019--Present}{Senior Machine Learning Engineer}{Nines}{Palo Alto, CA}{}{}
 \cventry{Oct 2018--Oct 2019}{Machine Learning Engineer}{Nines}{Palo Alto, CA}{}{
-    Startup applying machine learning to improve radiology.\newline{}https://www.ninesradiology.com/
+    Startup applying machine learning to improve radiology.\newline{}https://www.nines.com/
     \begin{itemize}
-        \item Built image classification models for detecting emergent conditions on CT head scans (currently undergoing FDA review).
-        \item Developed method to leverage NLP on doctor reports to study generalization properties of image-based models, reducing amount of labeled data required for validation.
-        \item Conducted experiments to test the effect of different labeling strategies on inter-rater reliability and model performance.
-        \item Developed framework to track experiments and infrastructure to perform hyperparameter tuning.
-        \item Developed evaluation framework used to compute performance metrics, tune thresholds, and iteratively debug/improve classification and detection models.
-        \item Developed serving framework used to run ensembles of PyTorch image classification models in production.
+        \item Built FDA approved algorithms for detecting emergent conditions on CT head scans and measuring lung nodules on CT chest scans.
+        \item Built systems to iteratively improve image classification, detection, and segmentation models through evaluation, error analysis, radiologist feedback, and labeling.
+        \item Developed and maintained experimentation framework including dataset generation, hyperparameter tuning, stratified evaluation, and regression testing.
+        \item Designed and developed system for FDA verification and validation of machine learning based medical devices.
+        \item Developed multimodal method of using NLP on radiology reports to study generalization properties of image based models.
+        \item Incorporated ideas from research papers such as hybrid 2.5D detection models for false positive reduction and clustering embeddings to identify hidden stratification.
+        \item Currently building an analytics platform for the Nines teleradiology clinic.
     \end{itemize}
 }
 %\subsection{Clarifai}
@@ -79,8 +80,7 @@
         \item Improved Clarifai's general model (which predicts over 11k concepts) thus improving downstream services which use its embeddings (for transfer learning and visual search).
         \item Worked on transfer learning service allowing users to rapidly train image classification models on their own labeled datasets.
         \item Developed solutions for customers across many verticals (ear disease classification, aerial imagery detection, fashion snap and search).
-        \item Developed and maintained research toolkit used to train and serve computer vision models.
-        \item Transitioned entire company from an internal neural network toolkit to TensorFlow.
+        \item Transitioned entire company from an internal neural network toolkit to TensorFlow and maintained research toolkit used to train and serve computer vision models.
         \item Scaled training infrastructure from single gpu to multi-gpu/node training.
         \item Extended serving infrastructure to run in multiple environments (cloud, on-premise, and mobile).
     \end{itemize}
@@ -172,12 +172,12 @@
 %\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
 %\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
 
-\section{References}
-\begin{cvcolumns}
-  \cvcolumn{Nines}{\begin{itemize}\item Matthew Lungren\item David Stavens\end{itemize}}
-  \cvcolumn{Clarifai}{\begin{itemize}\item Matthew Zeiler\item David Eigen\end{itemize}}
-  \cvcolumn{University of Michigan}{\begin{itemize}\item Honglak Lee\end{itemize}}
-\end{cvcolumns}
+%\section{References}
+%\begin{cvcolumns}
+  %\cvcolumn{Nines}{\begin{itemize}\item Matthew Lungren\item David Stavens\end{itemize}}
+  %\cvcolumn{Clarifai}{\begin{itemize}\item Matthew Zeiler\item David Eigen\end{itemize}}
+  %\cvcolumn{University of Michigan}{\begin{itemize}\item Honglak Lee\end{itemize}}
+%\end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
