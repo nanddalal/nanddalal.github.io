@@ -1,3 +1,3 @@
 all:
 	pdflatex cv.tex
-	xdg-open cv.pdf
+	open cv.pdf
